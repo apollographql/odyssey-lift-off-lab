@@ -1,6 +1,6 @@
 # Odyssey Lift-off Lab
 
-Welcome to the companion app of Odyssey Lift-off Lab! You can [find the lab's instructions on Odyssey](https://odyssey.apollographql.com/odyssey-lift-off-lab), Apollo's learning platform.
+Welcome to the companion app of Odyssey Lift-off Lab! You can [find the lab's instructions on Odyssey](https://odyssey.apollographql.com/lift-off-lab), Apollo's learning platform.
 
 You can [preview the completed demo app here](https://lift-off-client-demo.netlify.app/).
 
@@ -32,4 +32,4 @@ This will open up `localhost:3000` in your web browser.
 
 ## Getting Help
 
-For any issues or problems concerning the course content, please refer to the Odyssey course page and click on "Get Help".
+For any issues or problems concerning the course content, please refer to the [Odyssey topic in our community forums](https://community.apollographql.com/tags/c/help/6/odyssey).
