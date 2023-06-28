@@ -1,11 +1,12 @@
 import React from 'react';
-import { useQuery, gql } from '@apollo/client';
+import { useQuery} from '@apollo/client';
 import { useParams } from 'react-router-dom';
+import { gql } from "../__generated__";
 import { Layout, QueryResult } from '../components';
 import TrackDetail from '../components/track-detail';
 
 /** GET_TRACK gql query to retrieve a specific track by its ID */
-export const GET_TRACK = gql`
+export const GET_TRACK = gql(`
   query GetTrack($trackId: ID!) {
     track(id: $trackId) {
       id
@@ -27,7 +28,7 @@ export const GET_TRACK = gql`
       description
     }
   }
-`;
+`);
 
 /**
  * Track Page fetches a track's data from the gql query GET_TRACK
