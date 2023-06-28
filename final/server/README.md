@@ -1,3 +1,3 @@
 # Catstronauts - server
 
-The starting point of the `server` code.
+The final state of the `server` code.

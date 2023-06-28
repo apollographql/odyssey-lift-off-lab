@@ -1,3 +1,3 @@
 # Catstronauts - client
 
-The starting point of the `client` code.
+The final state of the `client` code.
