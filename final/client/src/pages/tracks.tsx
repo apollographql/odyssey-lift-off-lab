@@ -7,7 +7,7 @@ import TrackCard from "../containers/track-card";
 
 /** TRACKS gql query to retrieve all tracks */
 export const TRACKS = gql(`
-  query GetTracks {
+  query getTracks {
     tracksForHome {
       id
       title
