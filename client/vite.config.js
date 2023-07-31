@@ -23,9 +23,6 @@ export default defineConfig(() => ({
   },
   optimizeDeps: {
     esbuildOptions: {
-      loader: {
-        '.js': 'jsx',
-      },
       plugins: [
         {
           name: "load-js-files-as-jsx",

@@ -1,5 +1,5 @@
 {
-  "name": "catstronauts-server",
+  "name": "catstronauts-server-complete",
   "version": "1.0.0",
   "description": "back-end demo app for Apollo's lift-off lab",
   "main": "src/index.js",
