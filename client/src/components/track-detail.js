@@ -24,6 +24,7 @@ const TrackDetail = ({ track }) => {
     description,
     thumbnail,
     author,
+    reviewScore,
     length,
     modulesCount,
     modules,
@@ -70,6 +71,12 @@ const TrackDetail = ({ track }) => {
             </StyledLink>
           </div>
         </DetailRow>
+        <DetailRow>
+            <ReviewsContainer>
+              <h4>Reviews</h4>
+              <p>Average review score: {reviewScore}/10</p>
+            </ReviewsContainer>
+        </DetailRow>
         <ModuleListContainer>
           <DetailItem>
             <h4>Modules</h4>
@@ -99,6 +106,11 @@ const CoverImage = styled.img({
   maxHeight: 400,
   borderRadius: 4,
   marginBottom: 30,
+});
+
+const ReviewsContainer = styled.div({
+  width: '100%',
+  textAlign: 'center',
 });
 
 const StyledLink = styled(Link)({

@@ -29,6 +29,8 @@ const typeDefs = gql`
     numberOfViews: Int
     "The track's complete array of Modules"
     modules: [Module!]!
+    "Reviews for the Track"
+    reviewScore: Float
   }
 
   "Author of a complete Track or a Module"

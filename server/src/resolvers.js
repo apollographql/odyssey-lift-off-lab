@@ -1,3 +1,5 @@
+const { faker } = require('@faker-js/faker');
+
 const resolvers = {
   Query: {
     // returns an array of Tracks that will be used to populate the homepage grid of our web client
@@ -23,7 +25,9 @@ const resolvers = {
     modules: ({ id }, _, { dataSources }) => {
       return dataSources.trackAPI.getTrackModules(id);
     },
-  },
+
+    reviewScore: () => faker.number.float({min: 1, max: 10, precision: 0.1})
+  }
 };
 
 module.exports = resolvers;

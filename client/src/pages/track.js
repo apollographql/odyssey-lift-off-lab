@@ -15,6 +15,7 @@ export const GET_TRACK = gql`
         name
         photo
       }
+      reviewScore
       thumbnail
       length
       modulesCount
